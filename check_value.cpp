@@ -9,12 +9,14 @@
 //main_function
 int main() {
 
-	//init__rtarget_value
+	//init_target_value
 	const int target_value = 54;
 	//inint_current_vcalue
 	int current_value = 0;
 	//result_win
 	bool not_win = true;
+
+	//add_random_value
 
 	//enter_answer
 	std::cout << "Enter your guess:" << std::endl;
@@ -34,11 +36,12 @@ int main() {
 		//check_current = target_value
 		else {
 			std::cout << "you win!" << std::endl;
-			std::cout << "test_function" << std::endl;
 			//random_value();
 			break;
 		}
 	} while(true);
+
+	//add_high_scores
 
 	return 0;
 }
