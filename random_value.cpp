@@ -2,10 +2,10 @@
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
+//import_random_value.h
+#include "random_value.h"
 
-#include "build/random_value.h"
-
-int random_value() {
+int main() {
 	//create+max_value_for_random_number
 	const int max_value = 100;
 	// use current time as seed for random generator
@@ -16,8 +16,4 @@ int random_value() {
 	std::cout << random_value << std::endl;
 
 	return 0;
-}
-
-int main() {
-	return random_value();
 }
