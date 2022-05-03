@@ -1,15 +1,17 @@
+//import_lib
 #include <iostream>
 #include <cstdlib>
 #include <ctime>
 
+//random_value
 int main() {
-
+	//create+max_value_for_random_number
 	const int max_value = 100;
-
-	std::srand(std::time(nullptr)); // use current time as seed for random generator
-
+	// use current time as seed for random generator
+	std::srand(std::time(nullptr)); 
+	//limit_for)random_value
 	const int random_value = std::rand() % 100;
-
+	//enter_random_value
 	std::cout << random_value << std::endl;
 
 	return 0;

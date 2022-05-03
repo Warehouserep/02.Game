@@ -1,3 +1,4 @@
+//import_libraries
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -17,14 +18,20 @@ int main() {
 
 	// Ask about name
 	std::cout << "Hi! Enter your name, please:" << std::endl;
+	//init_variables
 	std::string user_name;
+	//enter_variuables
 	std::cin >> user_name;
 
 	// Get the last high score
 	std::cout << "Enter your high score:" << std::endl;
+	//init_high_score
 	int attempts_count = 0;
+	//enter_counts
 	std::cin >> attempts_count;
+	//check_on_bad_wrong
 	if (std::cin.fail()) {
+		//print_message
 		std::cout << "Bad value!" << std::endl;
 		return -1;
 	}
@@ -53,8 +60,10 @@ int main() {
 			return -1;
 		}
 
+		//
 		std::cout << "High scores table:" << std::endl;
 
+		//
 		std::string username;
 		int high_score = 0;
 		while (true) {
@@ -64,7 +73,7 @@ int main() {
 			in_file >> high_score;
 			// Ignore the end of line symbol
 			in_file.ignore();
-
+			//
 			if (in_file.fail()) {
 				break;
 			}
@@ -73,6 +82,5 @@ int main() {
 			std::cout << username << '\t' << high_score << std::endl;
 		}
 	}
-
 	return 0;
 }
