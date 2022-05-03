@@ -2,7 +2,7 @@
 #include <iostream>
 
 //import_header
-//#include "build/random_value.h"
+#include "random_value.h"
 #include "high_scores.h"
 #include "argument.h"
 
