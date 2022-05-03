@@ -2,9 +2,9 @@
 #include <iostream>
 
 //import_header
-//#include "random_value.h"
-//#include "high_scores.h"
-//#include "argument.h"
+#include "build/random_value.h"
+#include "high_scores.h"
+#include "argument.h"
 
 //main_function
 int main() {
@@ -34,6 +34,8 @@ int main() {
 		//check_current = target_value
 		else {
 			std::cout << "you win!" << std::endl;
+			std::cout << "test_function" << std::endl;
+			random_value();
 			break;
 		}
 	} while(true);

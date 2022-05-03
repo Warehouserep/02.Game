@@ -19,5 +19,5 @@ int random_value() {
 }
 
 int main() {
-
+	return random_value();
 }

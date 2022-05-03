@@ -16,9 +16,11 @@ add_executable(
 add_executable(
 	high_scores
 	high_scores.cpp
+	high_scores.h
 )
 
 add_executable(
 	argument
 	argument.cpp
+	argument.h
 )
