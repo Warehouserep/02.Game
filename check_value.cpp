@@ -1,5 +1,7 @@
-//import_lib_header
+//import_lib
 #include <iostream>
+
+//import_header
 //#include "random_value.h"
 //#include "high_scores.h"
 //#include "argument.h"
