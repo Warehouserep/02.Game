@@ -2,7 +2,7 @@
 #include <iostream>
 
 //import_header
-#include "build/random_value.h"
+//#include "build/random_value.h"
 #include "high_scores.h"
 #include "argument.h"
 
@@ -35,7 +35,7 @@ int main() {
 		else {
 			std::cout << "you win!" << std::endl;
 			std::cout << "test_function" << std::endl;
-			random_value();
+			//random_value();
 			break;
 		}
 	} while(true);
