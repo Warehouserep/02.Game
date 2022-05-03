@@ -12,6 +12,7 @@ int main() {
 	char num_dict[] = "0123456789";
 	char sim_dict[] = "!@#$%^&*()_+=-";
 	
+	//print_results
 	const std::string high_scores_filename = "high_scores.txt";
 
 	// Ask about name
