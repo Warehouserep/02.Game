@@ -13,14 +13,19 @@ int check_value()
 	int current_value = 0;
 	//result_win
 	bool not_win = true;
+	//inint_atemptts
+	int attempts = 0;
 	
 	//enter_answer
 	std::cout << "Enter your guess:" << std::endl;
 	//cickle_tries
 	do {
+		//cycle_attempts
+		attempts += 1;
+
 		//enter_your_answer
 		std::cin >> current_value;
-
+		
 		//check_current_value_bigger
 		if (current_value > target_value) {
 			std::cout << "less than " << current_value << std::endl;
@@ -32,7 +37,7 @@ int check_value()
 		//check_current = target_value
 		else {
 			std::cout << "you win!" << std::endl;
-			//random_value();
+			std::cout << "attempts: " << attempts << std::endl;
 			break;
 		}
 	} while(true);

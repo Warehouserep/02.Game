@@ -19,6 +19,6 @@ int main() {
 	std::cout << random_value() << std::endl;
 	//find_random_value
 	std::cout << check_value() << std::endl;
-	//
+	//return_main
 	return 0;
 }
