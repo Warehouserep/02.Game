@@ -3,8 +3,8 @@
 #include <fstream>
 #include <string>
 
-int main() {
-
+int high_scores() 
+{
 	//Init_dictionary
 	char ENG_dict[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	char eng_dict[] = "abcdefghijklmnopqrstuvwxyz";
@@ -33,6 +33,7 @@ int main() {
 	if (std::cin.fail()) {
 		//print_message
 		std::cout << "Bad value!" << std::endl;
+
 		return -1;
 	}
 
@@ -77,7 +78,6 @@ int main() {
 			if (in_file.fail()) {
 				break;
 			}
-
 			// Print the information to the screen
 			std::cout << username << '\t' << high_score << std::endl;
 		}

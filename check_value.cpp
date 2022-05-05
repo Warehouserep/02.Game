@@ -1,31 +1,22 @@
+#pragma once
 //import_lib
 #include <iostream>
-
-//import_header
-#include "random_value.h"
-#include "high_scores.h"
-#include "argument.h"
+#include "check_value.h"
 
 //main_function
-int main() {
-
-	std::cout << random_value() << std::endl;
-
-
-
+int check_value() 
+{
 	//init_target_value
-	//const int target_value = 54;
+	const int target_value = 54;
 	//inint_current_vcalue
-	//int current_value = 0;
+	int current_value = 0;
 	//result_win
-	//bool not_win = true;
-
-	//add_random_value
+	bool not_win = true;
 
 	//enter_answer
-	//std::cout << "Enter your guess:" << std::endl;
+	std::cout << "Enter your guess:" << std::endl;
 	//cickle_tries
-	/*
+	
 	do {
 		//enter_your_answer
 		std::cin >> current_value;
@@ -46,7 +37,5 @@ int main() {
 		}
 	} while(true);
 
-	//add_high_scores
-	*/
 	return 0;
 }

@@ -6,7 +6,10 @@ add_executable(
 	game_03
 	random_value.cpp
 	random_value.h
+	check_value.cpp
+	check_value.h
 	main.cpp
 )
+
 
 
