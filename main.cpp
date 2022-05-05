@@ -16,7 +16,7 @@ int main() {
 	std::cin.getline(username, 100);
 			
 	//generate_random_value
-	std::cout << random_value() << std::endl;
+	//std::cout << random_value() << std::endl;
 	//find_random_value
 	std::cout << check_value() << std::endl;
 	//return_main
