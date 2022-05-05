@@ -10,8 +10,7 @@ int random_value()
 	std::srand(std::time(nullptr));
 	//limit_for_random_value
 	const int random_value = std::rand() % max_value;
-	//enter_random_value
-	//std::cout << random_value << std::endl;
+	//export_rtandom_value
 	return random_value;
 }
 
