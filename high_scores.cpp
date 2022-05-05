@@ -3,6 +3,9 @@
 #include <fstream>
 #include <string>
 
+//import_headers
+#include "high_scores.h"
+
 int high_scores() 
 {
 	//Init_dictionary
@@ -33,7 +36,7 @@ int high_scores()
 	if (std::cin.fail()) {
 		//print_message
 		std::cout << "Bad value!" << std::endl;
-
+		//return_bad
 		return -1;
 	}
 
@@ -61,12 +64,14 @@ int high_scores()
 			return -1;
 		}
 
-		//
+		//print_table_high_scores
 		std::cout << "High scores table:" << std::endl;
 
 		//
 		std::string username;
+		//
 		int high_score = 0;
+		//
 		while (true) {
 			// Read the username first
 			in_file >> username;

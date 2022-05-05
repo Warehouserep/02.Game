@@ -8,6 +8,8 @@ add_executable(
 	random_value.h
 	check_value.cpp
 	check_value.h
+	high_scores.cpp
+	high_scores.h
 	main.cpp
 )
 
