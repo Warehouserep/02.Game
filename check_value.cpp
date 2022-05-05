@@ -9,18 +9,23 @@
 //main_function
 int main() {
 
+	std::cout << random_value() << std::endl;
+
+
+
 	//init_target_value
-	const int target_value = 54;
+	//const int target_value = 54;
 	//inint_current_vcalue
-	int current_value = 0;
+	//int current_value = 0;
 	//result_win
-	bool not_win = true;
+	//bool not_win = true;
 
 	//add_random_value
 
 	//enter_answer
-	std::cout << "Enter your guess:" << std::endl;
+	//std::cout << "Enter your guess:" << std::endl;
 	//cickle_tries
+	/*
 	do {
 		//enter_your_answer
 		std::cin >> current_value;
@@ -42,6 +47,6 @@ int main() {
 	} while(true);
 
 	//add_high_scores
-
+	*/
 	return 0;
 }
